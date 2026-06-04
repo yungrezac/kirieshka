@@ -1,11 +1,15 @@
 {
   "name": "tiktok-live-backend",
+  "version": "1.0.0",
+  "description": "Backend for TikTok Widgets",
   "main": "server.js",
-  "scripts": { "start": "node server.js" },
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.18.2",
     "socket.io": "^4.7.2",
-    "tiktok-live-connector": "^1.1.4",
-    "cors": "^2.8.5"
+    "tiktok-live-connector": "^1.1.4"
   }
 }
